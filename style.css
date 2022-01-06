@@ -1,0 +1,36 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
+    padding-left: 5%;
+}
+.half_width{
+    width: 50%;
+}
+.half_width img{
+    width: 80%;
+}
+.half_width h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.half_width p{
+    font-weight: 400;
+}
+.colorhed{
+    color: tomato;
+    font-weight: 200;
+}
+.half_width a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 1px;
+    background-image: linear-gradient(rgb(185, 104, 79),#FA6B58);
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    border-radius: 5px;
+}
