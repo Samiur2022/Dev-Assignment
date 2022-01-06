@@ -1,24 +1,27 @@
-
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.flexible{
     display: flex;
     padding-left: 5%;
+    margin-bottom: 150px;
 }
 .top-banner{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
 }
 .half_width{
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    
 }
 .half_width img{
-    width: 80%;
+    width: 100%;
 }
 .half_width h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -27,15 +30,59 @@ section{
 }
 .colorhed{
     color: tomato;
+    font-family: 'Chewy', cursive;
     font-weight: 200;
 }
 .half_width a{
     text-decoration: none;
     padding: 10px 40px;
-    border: 1px;
     background-image: linear-gradient(rgb(185, 104, 79),#FA6B58);
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 18px;
     color: white;
     border-radius: 5px;
+    text-transform: uppercase;
+}
+.dream-area{
+    background-image: url(image/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.Experiences-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experiences-area h1{
+    width: 20%;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: auto;
+    margin-bottom: 80px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.Experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 20px gray;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(179, 62, 33),#fa6b58);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(19, 88, 179),#692fd4);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
